@@ -1,5 +1,5 @@
 import { registerBlockType } from '@wordpress/blocks';
 
-import blockEncart from './blocks/block-encart';
+import blockSection from './blocks/section';
 
-registerBlockType('spawn-blocks/block-encart', blockEncart);
+registerBlockType('spawn-blocks/section', blockSection);

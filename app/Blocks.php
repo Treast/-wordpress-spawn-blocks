@@ -29,7 +29,7 @@ class Blocks
 
     public function import_assets()
     {
-        // wp_enqueue_style('spawn-blocks-styles', $this->getFileUrl('/../build/style-main.css'), array(), filemtime(__DIR__ . '/../build/style-main.css'));
+        wp_enqueue_style('spawn-blocks-styles', $this->getFileUrl('/../build/index.css'), array(), filemtime(__DIR__ . '/../build/index.css'));
     }
 
     private function getFileUrl(string $file)
